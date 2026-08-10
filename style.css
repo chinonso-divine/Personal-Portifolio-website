@@ -14,6 +14,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-size: 32px;
       }
 
       html {
@@ -289,7 +290,7 @@
       .contact {
         background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%);
         color: var(--off-white);
-        padding: 5rem 6%;
+        padding: 7rem 6%;
         text-align: center;
       }
 
@@ -300,7 +301,7 @@
       }
 
       .contact-form {
-        max-width: 520px;
+        max-width: 900px;
         margin: 0 auto 2.5rem;
         display: flex;
         flex-direction: column;
@@ -309,7 +310,7 @@
 
       .contact-form input,
       .contact-form textarea {
-        padding: 12px 14px;
+        padding: 14px 14px;
         border-radius: 6px;
         border: none;
         font-size: 0.95rem;
